@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1e172f;
+    display: flex;
+}
+
+.logoHeader{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+a:hover{
+    color: white;
+}
+
+.download{
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, violet, rgb(1, 119, 255), indigo);
+    padding: 12px;
+}
+
+.secion1{
+    display: flex;
+}
+
+.izqSecion1{
+    width: 50%;
+    padding: 140px 0px 0px 320px;
+    background-color: #2e2550;
+    
+}
+
+h1{
+    color: white;
+    font-size: 90px;
+}
+
+.parrafo1{
+    color: white;
+    font-size: 28px;
+}
+
+.dereSecion1{
+    width: 50%;
+    background-image: url(/assets/hojasFondo.jpg);
+    padding: 0px 0px 0px 100px;
+}
+
+.fondoBotones{}
+
+.boton1{
+    color: palevioletred;
+}
