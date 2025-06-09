@@ -292,3 +292,198 @@ footer{
 .nico{
     color: rgba(244, 21, 135, 255);
 }
+
+@media (min-width: 921px) and (max-width: 1279px) {
+  .izqSecion1 {
+    padding: 100px 30px 20px 80px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  .card {
+    width: 28%;
+  }
+
+  .parrafo3 {
+    margin: 0 20%;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 920px) {
+  .izqSecion1 {
+    padding: 80px 20px 20px 40px;
+  }
+
+  .dereSecion1 img{
+    max-width: 80%;
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  .parrafo3 {
+    margin: 0 15%;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .redes{
+    justify-content: start;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  header,
+  .secion1,
+  .secion2,
+  .secion4,
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logoHeader,
+  .navegacion,
+  .izqSecion1,
+  .dereSecion1,
+  .izqSecion2,
+  .dereSecion2,
+  .izqFooter,
+  .redes {
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .parrafo1,
+  .parrafo2,
+  .parrafo3 {
+    font-size: 18px;
+  }
+
+  .fondoBotones {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .izqSecion2{
+    margin-left: 10%;;
+  }
+
+  .dereSecion1 img{
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  header,
+  .secion1,
+  .secion2,
+  .secion4,
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logoHeader,
+  .navegacion,
+  .izqSecion1,
+  .dereSecion1,
+  .izqSecion2,
+  .dereSecion2,
+  .izqFooter,
+  .redes {
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .parrafo1,
+  .parrafo2,
+  .parrafo3 {
+    font-size: 16px;
+  }
+
+  .fondoBotones {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .parrafo3 {
+    margin: 0 20px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+
+  .izqFooter{
+    font-size: 16px;
+  }
+
+  .izqSecion2{
+    margin-left: 10%;;
+  }
+
+  .dereSecion1 img{
+    max-width: 50%;
+  }
+}
